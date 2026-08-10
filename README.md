@@ -1,6 +1,6 @@
 # Deployment
 
-Utilize this [project](<REPLACE-WITH-YOUR-REPO-URL>) as the baseline for this app.
+Utilize this [project](https://github.com/kabeier/Simple-Deployment-Demo) as the baseline for this app.
 
 > Deploy from a **standalone repo**, not the course monorepo. Cloning the whole
 > monorepo onto a 1 GB instance is slow and makes every path longer than it needs
@@ -94,7 +94,7 @@ export const api = axios.create({
 ### 5. In EC2 Pull Down your Project from Github
 
 ```bash
-git clone <REPLACE-WITH-YOUR-REPO-URL>
+git clone https://github.com/kabeier/Simple-Deployment-Demo
 cd <repo-folder>
 ```
 
